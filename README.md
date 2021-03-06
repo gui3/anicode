@@ -8,7 +8,7 @@
 
 To access gui3/anicode, just follow the white rabbit :
 
-🐰🐰 https://gui3.github.io/lexi-code/ 🐰🐰
+🐰🐰 https://gui3.github.io/anicode/ 🐰🐰
 
 gui3/anicode is just a static web page
 on which you can search 
