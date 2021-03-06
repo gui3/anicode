@@ -6,14 +6,17 @@
 
 ### to find unicode characters
 
+To access gui3/anicode, just follow the white rabbit :
+
+🐰🐰 https://gui3.github.io/lexi-code/ 🐰🐰
+
 gui3/anicode is just a static web page
 on which you can search 
 [the unicode official character database (UCD)](https://www.unicode.org/Public/UCD/latest/ucd/UnicodeData.txt)
 using keywords to find specific unicode characters.
 
-To access gui3/anicode, just follow the white rabbit :
-
-🐰🐰 https://gui3.github.io/lexi-code/ 🐰🐰
+If you want to know more about unicode in general,
+here's a [worthy lecture about unicode by Dmitri Pavlutin (on his blog)](https://dmitripavlutin.com/what-every-javascript-developer-should-know-about-unicode/)
 
 ### to see how it's made
 
