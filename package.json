@@ -1,0 +1,34 @@
+{
+  "name": "@gui3/anicode",
+  "version": "0.0.1",
+  "description": "unicode lexicon",
+  "main": "src/server.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gui3/anicode.git"
+  },
+  "keywords": [
+    "unicode",
+    "lexicon",
+    "web",
+    "page"
+  ],
+  "author": "gui3",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/gui3/anicode/issues"
+  },
+  "homepage": "https://github.com/gui3/anicode#readme",
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "mocha": "^8.3.1"
+  }
+}

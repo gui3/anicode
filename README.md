@@ -8,33 +8,31 @@
 
 To access gui3/anicode, just follow the white rabbit :
 
-🐰🐰 https://gui3.github.io/anicode/ 🐰🐰
+🐰🐰 ...url not available for now 🐰🐰
 
-gui3/anicode is just a static web page
+gui3/anicode is just a little website
 on which you can search 
 [the unicode official character database (UCD)](https://www.unicode.org/Public/UCD/latest/ucd/UnicodeData.txt)
 using keywords to find specific unicode characters.
 
-If you want to know more about unicode in general,
+If you want to know more about **unicode** in general,
 here's a [worthy lecture about unicode by Dmitri Pavlutin (on his blog)](https://dmitripavlutin.com/what-every-javascript-developer-should-know-about-unicode/)
 
 ### to see how it's made
 
-gui3/anicode uses the UCD data,
-but since it's a static web page
-it cannot fetch the data by itself (cross-origin, bla bla bla)
+The original idea was to make a static web page,
+but since the data has to be fetched from an external website
+and because cross origin policy bla bla bla ...
+It had to get a minimal express server.
 
-So you will find a .bat (windows, sorry) script in the `scripts` folder
-that pulls the raw data from https://www.unicode.org
-and saves it in this text file : `public/data/ucd.txt`
+This server is in charge of fetching the data 
+from https://www.unicode.org,
+to process it into a valid json,
+and to transfer it to the main page.
 
-Then, the static page's javascript (in `public/js/getData.js`)
-will locally fetch the above text file
-and parse it into json
-
-Then ... some magic in `public/js/search.js` and VOILA,
-you get the unicode lexicon.
-
+I could have done the fetching and processing in a separate script,
+since unicode data don't change so often,
+but i want to train so let's do it.
 
 ## diclaimer
 
