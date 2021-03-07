@@ -1,0 +1,7 @@
+<% layout('./layouts/main') %>
+
+<h1>Oops: error 404 🔍🔍</h1>
+
+<p>il n'y a pas de page à l'adresse <%= it.path %></p>
+
+<p>➡️🏠 Retourner à l'<a href="/">accueil</a></p>

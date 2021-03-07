@@ -1,0 +1,12 @@
+<% layout('./layouts/main') %>
+
+<h1>Oops: error <%= it.error.code %> ⚡⚡</h1>
+
+<p>The server encountered an error with the following message :</p>
+<blockquote><%= it.error.message || "" %></blockquote>
+
+<p>and the following stack :</p>
+
+<code><pre><%= it.error.stack || "" %></pre></code>
+
+<p>➡️🏠 Retourner à l'<a href="/">accueil</a></p>

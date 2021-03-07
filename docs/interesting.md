@@ -30,3 +30,50 @@ function readTextFile(file)
 
 ```
 from https://stackoverflow.com/a/14446538/7162648
+
+```js
+function processData(data) {
+  // taking care of data
+}
+
+function handler() {
+  if(this.status == 200 &&
+    this.responseXML != null &&
+    this.responseXML.getElementById('test').textContent) {
+    // success!
+    processData(this.responseXML.getElementById('test').textContent);
+  } else {
+    // something went wrong
+    …
+  }
+}
+
+var client = new XMLHttpRequest();
+client.onload = handler;
+client.open("GET", "unicorn.xml");
+client.send();
+```
+from https://xhr.spec.whatwg.org/ 
+
+```js
+const getData=()=>{
+     fetch('data.json',{
+          headers : { 
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+           }
+         }
+        )
+         .then(function(response){
+            console.log(response)
+            return response.json();
+          })
+           .then(function(myJson) {
+              console.log(myJson);
+            });
+      }
+      useEffect(()=>{
+        getData()
+      },[])
+```
+from https://stackoverflow.com/a/64195120/7162648

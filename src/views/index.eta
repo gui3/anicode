@@ -1,0 +1,25 @@
+<% layout('./layouts/main') %>
+
+  <header>
+
+    <nav id="mainToolBar">
+  
+      <section id="logo">
+        <h1>Anicode</h1>
+        <p><em>the unicode lexicon</em></p>
+      </section>
+  
+  
+    </nav>
+  
+  </header>
+  
+  <!--script src="./public/js/getData.js"></script>
+  <script src="./public/js/search.js"></script>
+  
+  <script>
+//getData("./public/data/test.txt")
+getData("https://www.unicode.org/Public/UCD/latest/ucd/UnicodeData.txt")
+.then(data => console.log(data))
+.catch(err => console.log(err))
+  </script-->
