@@ -40,7 +40,7 @@ There is already at least one project
 with the same name as the present project ([igalic/anicode](https://github.com/igalic/anicode))
 
 The present project (gui3/anicode)
-is just a little static page **made for fun
+is just a little web page **made for fun
 and for the sake of learning**,
 with no intent on cutting anyone's grass under one's feet.
 
