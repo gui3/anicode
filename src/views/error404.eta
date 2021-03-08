@@ -2,6 +2,9 @@
 
 <h1>Oops: error 404 🔍🔍</h1>
 
-<p>il n'y a pas de page à l'adresse <%= it.path %></p>
+<p>
+  There is nothing to see at this adress : 
+</p>
+<code><pre><%= it.path || "" %></pre></code>
 
-<p>➡️🏠 Retourner à l'<a href="/">accueil</a></p>
+<p>➡️🏠 Back to the <a href="/">main page</a></p>

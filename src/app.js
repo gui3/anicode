@@ -42,7 +42,8 @@ app.get("/dev/error", function (req, res) {
 app.use(function (req, res, next) { // 404 page not found
   res.status(404)
   res.render("error404", {
-    path: req.path
+    path: req.path,
+    hideheader: true
   })
 })
 

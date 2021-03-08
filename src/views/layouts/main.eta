@@ -9,12 +9,11 @@
 </head>
 <body>
 
+  <%~ includeFile("./partials/header.eta") %>
+
   <%~ it.body %>
 
-  <footer>
-    <hr/>
-    Made for fun
-  </footer>
+  <%~ includeFile("./partials/footer.eta") %>
 
 </body>
 </html>

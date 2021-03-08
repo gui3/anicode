@@ -9,4 +9,4 @@
 
 <code><pre><%= it.error.stack || "" %></pre></code>
 
-<p>➡️🏠 Retourner à l'<a href="/">accueil</a></p>
+<p>➡️🏠 Back to the <a href="/">main page</a></p>

@@ -1,18 +1,6 @@
 <% layout('./layouts/main') %>
 
-  <header>
 
-    <nav id="mainToolBar">
-  
-      <section id="logo">
-        <h1>Anicode</h1>
-        <p><em>the unicode lexicon</em></p>
-      </section>
-  
-  
-    </nav>
-  
-  </header>
   
   <!--script src="./public/js/getData.js"></script>
   <script src="./public/js/search.js"></script>
