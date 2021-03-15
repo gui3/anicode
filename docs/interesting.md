@@ -2,6 +2,11 @@
 
 this file contains interesting litterature or commands
 
+## react
+
+https://fr.reactjs.org/docs/faq-structure.html
+
+
 ### Unicode data url :
 
 https://www.unicode.org/Public/UCD/latest/ucd/UnicodeData.txt

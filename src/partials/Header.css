@@ -1,0 +1,10 @@
+header {
+  background: #fd9;
+  background: linear-gradient(
+    -10deg,
+    #fc4 10%,
+    #fff
+  );
+
+  box-shadow: 0px 0px 10px #fc4;
+}

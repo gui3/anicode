@@ -1,14 +1,15 @@
-import "./App.css"
+
 
 import Gist from "./components/Gist.js"
+import Header from "./partials/Header.js"
 
 function App () {
   return (
-    <div className="App">
-      <h1>test of react</h1>
+    <main className="App">
+      <Header/>
 
-      <Gist user="gui3" id="6e8c14e8587b319a09eb32847c0884df"></Gist>
-    </div>
+      <Gist user="gui3" id="6e8c14e8587b319a09eb32847c0884df"/>
+    </main>
   )
 }
 
