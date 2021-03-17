@@ -1,0 +1,44 @@
+
+.SearchBar {
+  border: 2px solid #888;
+  background: #fff;
+  padding: 1px;
+  vertical-align: center;
+
+  border-radius: 0.5em 0;
+
+  -min-width: 7em;
+}
+
+.SearchBar input {
+  border: 0;
+  border-bottom: 2px dotted #4cf;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.SearchBar input:focus {
+  outline: 0;
+  background: #fdd;
+  border-bottom: 2px dotted #c55;
+}
+.SearchBar input::placeholder {
+  font-weight: normal;
+  font-style: italic;
+  
+}
+
+.SearchBar button {
+  margin: 2px;
+  background: inherit;
+  border: 0;
+  font-size: 1.5em;
+}
+.SearchBar button:focus {
+  outline: 0;
+}
+.SearchBar button:active {
+  margin: 0;
+  border: 2px solid #c55;
+  border-radius: 0.2em;
+  background: #fdd;
+}

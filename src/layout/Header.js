@@ -8,18 +8,16 @@ class Header extends Component {
   render () {
     return (
       <header>
-        <nav className="toolbar">
-          <div className="logo">
-            <h1>
-              Anicode
-            </h1>
-            <p>
-              The unicode lexicon
-            </p>
-          </div>
+        <div className="logo">
+          <h1>
+            Anicode
+          </h1>
+          <p>
+            The unicode lexicon
+          </p>
+        </div>
 
-          <Toolbar/>
-        </nav>
+        <Toolbar/>
       </header>
     )
   }

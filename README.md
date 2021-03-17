@@ -8,7 +8,7 @@
 
 To access gui3/anicode, just follow the white rabbit :
 
-🐰🐰 ...url not available for now 🐰🐰
+🐰🐰 https://gui3.github.io/anicode/ 🐰🐰
 
 gui3/anicode is just a little website
 on which you can search 
