@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/anicode/static/css/main.7988311a.chunk.css",
-    "main.js": "/anicode/static/js/main.346ad302.chunk.js",
-    "main.js.map": "/anicode/static/js/main.346ad302.chunk.js.map",
-    "runtime-main.js": "/anicode/static/js/runtime-main.4ed7240d.js",
-    "runtime-main.js.map": "/anicode/static/js/runtime-main.4ed7240d.js.map",
+    "main.css": "/anicode/static/css/main.f9fb6388.chunk.css",
+    "main.js": "/anicode/static/js/main.5a8b4579.chunk.js",
+    "main.js.map": "/anicode/static/js/main.5a8b4579.chunk.js.map",
+    "runtime-main.js": "/anicode/static/js/runtime-main.3d2973fc.js",
+    "runtime-main.js.map": "/anicode/static/js/runtime-main.3d2973fc.js.map",
     "static/js/2.9d0b7ee5.chunk.js": "/anicode/static/js/2.9d0b7ee5.chunk.js",
     "static/js/2.9d0b7ee5.chunk.js.map": "/anicode/static/js/2.9d0b7ee5.chunk.js.map",
-    "static/js/3.68e818a7.chunk.js": "/anicode/static/js/3.68e818a7.chunk.js",
-    "static/js/3.68e818a7.chunk.js.map": "/anicode/static/js/3.68e818a7.chunk.js.map",
+    "static/js/3.b6ccecea.chunk.js": "/anicode/static/js/3.b6ccecea.chunk.js",
+    "static/js/3.b6ccecea.chunk.js.map": "/anicode/static/js/3.b6ccecea.chunk.js.map",
     "index.html": "/anicode/index.html",
-    "static/css/main.7988311a.chunk.css.map": "/anicode/static/css/main.7988311a.chunk.css.map",
+    "static/css/main.f9fb6388.chunk.css.map": "/anicode/static/css/main.f9fb6388.chunk.css.map",
     "static/js/2.9d0b7ee5.chunk.js.LICENSE.txt": "/anicode/static/js/2.9d0b7ee5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.4ed7240d.js",
+    "static/js/runtime-main.3d2973fc.js",
     "static/js/2.9d0b7ee5.chunk.js",
-    "static/css/main.7988311a.chunk.css",
-    "static/js/main.346ad302.chunk.js"
+    "static/css/main.f9fb6388.chunk.css",
+    "static/js/main.5a8b4579.chunk.js"
   ]
 }
