@@ -1,0 +1,13 @@
+
+  <header>
+
+    <nav id="mainToolBar">
+  
+      <section id="logo">
+        <h1><em>Anicode</em></h1>
+        <p><em>the unicode lexicon</em></p>
+      </section>
+  
+    </nav>
+    <hr/>
+  </header>

@@ -1,0 +1,10 @@
+DATA:
+  ucd:
+    url: https://www.unicode.org/Public/UCD/latest/ucd/UnicodeData.txt
+
+  load:
+    delay: 3600
+    # minimum time (in ms) between 2 loads
+    # here 3600000 = 1*60*60*1000 = 1h
+
+PORT: 5005
