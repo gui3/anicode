@@ -1,14 +1,15 @@
 
 
-import Gist from "./components/Gist.js"
-import Header from "./partials/Header.js"
+//import Gist from "./components/Gist.js"
+import UniBoard from "./components/UniBoard.js"
+import Header from "./layout/Header.js"
 
 function App () {
   return (
     <main className="App">
       <Header/>
 
-      <Gist user="gui3" id="6e8c14e8587b319a09eb32847c0884df"/>
+      <UniBoard/>
     </main>
   )
 }

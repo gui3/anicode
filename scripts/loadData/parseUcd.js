@@ -10,8 +10,8 @@ module.exports = function parseUcd (txt) {
   .split("\n")
   .forEach(row => {
     const unicodeChar = {}
-    row.split(",")
-    .forEach((value, ix) => unicodeChar[ix] = value)
+    row.split(";")
+    .forEach((value, ix) => value.length > 0 && (unicodeChar[ix] = value))
     parsed.push(unicodeChar)
   })
 

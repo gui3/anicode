@@ -1,0 +1,19 @@
+.UniCard {
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 2px 4px 10px #4cf;
+
+  margin: 1em;
+
+}
+
+.UniCard .char {
+  font-size: 4em;
+  text-align: center;
+  font-family:  sans-serif;
+
+  min-height: 1em;
+  min-width: 1em;
+
+  -float: left;
+}

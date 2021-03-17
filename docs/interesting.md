@@ -2,6 +2,8 @@
 
 this file contains interesting litterature or commands
 
+
+
 ## react
 
 https://fr.reactjs.org/docs/faq-structure.html
@@ -11,6 +13,8 @@ https://fr.reactjs.org/docs/faq-structure.html
 
 https://www.unicode.org/Public/UCD/latest/ucd/UnicodeData.txt
 
+and for keys :
+https://gist.github.com/bwoods/e5bd964fc360ba5e920e
 
 ### fetch a local txt in js
 
