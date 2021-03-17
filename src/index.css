@@ -17,3 +17,24 @@ code {
 h1 {
   margin: 0;
 }
+
+/* scrollbars */
+::-webkit-scrollbar {
+  width: 1em;
+  height: 1em;
+  background: transparent;
+}
+::-webkit-scrollbar-track {
+  border: 1px solid #07a;
+  background-color: #eee;
+  border-radius: 0.4em;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #4cf;
+  border-radius: 0.4em;
+  border: 2px solid #07a;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #f55;
+}
+/* end scrollbars */
