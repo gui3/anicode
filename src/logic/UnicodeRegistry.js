@@ -14,11 +14,14 @@ class UnicodeRegistry {
   search (pattern, regex = false) {
     pattern = pattern.toLowerCase()
     const rexpat = new RegExp(pattern)
+    const patterns = pattern.split(" ").filter(v => v.length !== 0)
     const condition = regex
     ? array => array.some 
       && array.some(val => val.toLowerCase().match(rexpat))
     : array => array.some 
-      && array.some(val => val.toLowerCase().includes(pattern))
+      && patterns.every(pat => array.some(
+        val => val.toLowerCase().includes(pat)
+      ))
 
     const filtered = this.array().filter(condition) || []
 
