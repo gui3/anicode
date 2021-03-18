@@ -1,14 +1,14 @@
 
 //import Gist from "./components/Gist.js"
-import UniBoard from "./components/UniBoard.js"
-import Header from "./layout/Header.js"
+import UnicodeFinder from "./pages/UnicodeFinder.js"
+import Footer from "./layout/Footer.js"
 
 function App () {
   return (
     <main className="App">
-      <Header/>
+      <UnicodeFinder/>
 
-      <UniBoard/>
+      <Footer/>
     </main>
   )
 }

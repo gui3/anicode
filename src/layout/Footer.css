@@ -1,0 +1,15 @@
+footer {
+  margin-top: 3em;
+  padding-top: 1em;
+  color: #555;
+
+  text-align: center;
+}
+
+footer p {
+  vertical-align: middle;
+}
+
+footer .logo {
+  height: 2em;
+}

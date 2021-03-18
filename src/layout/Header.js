@@ -17,7 +17,7 @@ class Header extends Component {
           </p>
         </div>
 
-        <Toolbar/>
+        <Toolbar onChange={this.props.onChange}/>
       </header>
     )
   }

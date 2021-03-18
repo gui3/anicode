@@ -6,35 +6,48 @@ import UniCard from "./UniCard.js"
 import UnicodeRegistry from "../logic/UnicodeRegistry.js"
 
 class UniBoard extends Component {
-  constructor () {
-    super()
+  constructor (props) {
+    super(props)
     this.UCD = new UnicodeRegistry()
-    //this.gallery = this.UCD.getRange(0,100)
-    this.gallery = this.UCD.random(100)
-    this.options = {
+    this.options =  {
       range: 100,
       start: 0,
       pattern: "",
-      regex: false
+      regex: false,
+      random: true
     }
   }
 
-  updateGallery (options) {
-    this.options = {
+  updateGallery () {
+    const options = {
       ...this.options,
-      ...options
+      ...this.props.options
     }
-    this.gallery = this.UCD.getRange(
-      this.options.start || 0, this.options.range || undefined
-    ).search(
-      this.options.pattern,
-      this.options.regex
-    )
+
+    this.options = options
+
+    console.log(options.random)
+
+    this.gallery = options.pattern.length > 0
+    ? this.UCD.search(
+        options.pattern,
+        options.regex
+      )
+    : this.UCD
+    if (options.random) {
+      this.gallery = this.gallery.random(options.range)
+    } else {
+      this.gallery = this.gallery.getRange(
+        options.start || 0,
+        options.range || undefined
+      )
+    }
   }
 
   render () {
-    const cards = this.gallery.map(char => 
-      <UniCard UCDchar={char} key={char[0]}/>
+    this.updateGallery()
+    const cards = this.gallery.map((char, ix) => 
+      <UniCard UCDchar={char} key={ix + ":" + char[0]}/>
     )
     return (
       <section className="UniBoard">

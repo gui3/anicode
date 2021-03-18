@@ -9,7 +9,7 @@ class UniCard extends Component {
     return (
       <article className="UniCard">
         <div className="char">
-          {  String.fromCharCode(
+          {  String.fromCodePoint(
             parseInt(this.props.UCDchar[0], 16)
             ) }
         </div>
