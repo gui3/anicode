@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/anicode/static/css/main.ca8fa38b.chunk.css",
-    "main.js": "/anicode/static/js/main.a7893131.chunk.js",
-    "main.js.map": "/anicode/static/js/main.a7893131.chunk.js.map",
+    "main.js": "/anicode/static/js/main.ac316d3c.chunk.js",
+    "main.js.map": "/anicode/static/js/main.ac316d3c.chunk.js.map",
     "runtime-main.js": "/anicode/static/js/runtime-main.768855cf.js",
     "runtime-main.js.map": "/anicode/static/js/runtime-main.768855cf.js.map",
     "static/js/2.c16c9741.chunk.js": "/anicode/static/js/2.c16c9741.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.768855cf.js",
     "static/js/2.c16c9741.chunk.js",
     "static/css/main.ca8fa38b.chunk.css",
-    "static/js/main.a7893131.chunk.js"
+    "static/js/main.ac316d3c.chunk.js"
   ]
 }
